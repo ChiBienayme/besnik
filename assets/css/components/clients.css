@@ -42,6 +42,10 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
+    .clients {
+        margin-top: 80px;
+    }
+    
     .clients .images {
         flex-wrap: wrap;
         justify-content: center;
@@ -50,6 +54,8 @@
 
 /* Mobile */
 @media screen and (max-width: 767px) {
+    
+
     .clients .desc:nth-child(2) {
         display: none;
     }

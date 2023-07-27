@@ -58,6 +58,11 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991px) {
+    .hero-wrap {
+        height: auto;
+        padding: 50px 0;
+    }
+
     .hero-img {
         display: none;
     }
@@ -78,13 +83,9 @@
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-    .hero-wrap {
-        height: calc(100vh - 80px);
-    }
-
     .hero-wrap .title {
         margin-top: 20px;
-        font-size: 5.2rem;
+        font-size: 4.2rem;
     }
 
     .hero-wrap .desc {
